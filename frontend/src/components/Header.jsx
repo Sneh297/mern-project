@@ -34,7 +34,9 @@ export default function Header() {
         </Button>
 
         <Link to='/sign-in'>
-          <Button gradientDuoTone='purpleToBlue'>Sign IN</Button>
+          <Button gradientDuoTone='purpleToBlue' outline>
+            Sign IN
+          </Button>
         </Link>
         {/* this gives use a collapse menu  */}
         <Navbar.Toggle />
